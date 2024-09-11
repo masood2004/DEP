@@ -3,24 +3,116 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Profile</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Syed Masood Hussain - Personal Profile</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div class="navbar">
-        <div class="logo">
-          <h1>Masood.</h1>
-        </div>
-        <div class="nav">
-          <ul>
-            <li>Home</li>
-            <li>About Me</li>
-            <li>Projects</li>
-            <li>Contact</li>
-          </ul>
-        </div>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+      <div class="logo">
+        <h1>Masood.</h1>
+      </div>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Syed Masood Hussain</h1>
+        <p>Computer Science Student | Chess Enthusiast | Future Grandmaster</p>
+        <a href="#about" class="cta-btn">Learn More</a>
       </div>
     </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="content">
+        <h2>About Me</h2>
+        <p>
+          I'm a 20-year-old Computer Science student with a strong passion for
+          technology, programming, and chess. I aim to become a Chess
+          Grandmaster and excel in the fields of web development and data
+          science. I have worked on several exciting projects, including the
+          CleanBee robot swarm system and a blockchain-based charity donation
+          platform.
+        </p>
+      </div>
+    </section>
+
+    <!-- Image Overlay Section -->
+    <section class="overlay">
+      <div class="overlay-content">
+        <h2>Innovation in Technology & Chess</h2>
+        <p>
+          Combining my love for technology and chess, I constantly push the
+          boundaries to create innovative solutions for real-world problems.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="title">
+        <h2>Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>CleanBee</h3>
+          <p>
+            A futuristic cleaning robot swarm system for smart city
+            environments. Designed to improve urban cleanliness through
+            automation and AI.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Blockchain Charity Platform</h3>
+          <p>
+            A transparent and secure donation platform using blockchain
+            technology to ensure trustworthy, tamper-proof charity donations.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Chess Journey</h3>
+          <p>
+            Playing in FIDE-rated chess tournaments, I'm on a journey to become
+            a Grandmaster, applying strategic thinking and problem-solving
+            skills both on the board and in tech projects.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="content">
+        <h2>Contact Me</h2>
+        <p>
+          I'd love to collaborate on web development projects or discuss chess
+          strategies. Feel free to reach out!
+        </p>
+        <a href="mailto:hmasood3288@gmail.com" class="cta-btn">Email Me</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Syed Masood Hussain | All Rights Reserved</p>
+      <ul class="social-links">
+        <li>
+          <a href="https://www.linkedin.com/in/smh-5bab5b25b/"
+            ><img src="src/linkedin.png" alt="LinkedIn" class="icon" />
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/masood2004" class="github"
+            ><img src="src/github.png" alt="GitHub" class="icon"
+          /></a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
